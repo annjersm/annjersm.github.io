@@ -3,15 +3,6 @@ body {
 	color: white;
 }
 
-.ip_add {
-	float = left;
-	display: flex;
-}
-.ip_add * {
-	margin: 5px;
-	padding: 5px;
-}
-
 /** CSS GRID **/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -28,5 +19,18 @@ body {
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid red;
+}
+
+
+.ip_add {
+	width: 100;
+	display: grid;
+	text-align: center;
+	font-size: large;
+}
+.ip_add h2 {
+	margin: 200px 0 0 0;
+}
+.ip_add h3 {
+	margin: 20px 0 0 0;
 }
