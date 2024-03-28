@@ -23,7 +23,7 @@ delta = delta_ns / NS_PER_SEC;
 last_frame = now;
 frames++;
 
-if (now - last_second > NS_PER_SEC) {
+if (now - last_second > CLOCKS_PER_SEC) {
 	last_second = now;
 	fps = frames;
 	frames = 0;
