@@ -13,6 +13,25 @@
 		<h2>IP Addres:</h2>
 		<h3 id="gfg"></h3>
 	</div>
+	<div class="code_block">
+		<h2> Timing </h2>
+		<pre>
+		<code>
+time_t now = clock();
+delta_ns = now - last_frame;
+delta = delta_ns / NS_PER_SEC;
+last_frame = now;
+frames++;
+
+if (now - last_second > NS_PER_SEC) {
+	last_second = now;
+	fps = frames;
+	frames = 0;
+	printf("fps: %d\n", fps);
+}
+		</code>
+		</pre>
+	</div>
 
 </body>
 </html>

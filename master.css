@@ -34,3 +34,17 @@ body {
 .ip_add h3 {
 	margin: 20px 0 0 0;
 }
+
+
+.code_block {
+	margin-top: 80px;
+}
+.code_block h2 {
+	text-align: center;
+}
+.code_block code {
+	margin-left: 40%;
+	padding: 20px 40px 30px 40px;
+	float: left;
+	background-color: #333333;
+}
