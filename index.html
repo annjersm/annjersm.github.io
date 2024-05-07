@@ -3,17 +3,22 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="favicon.png">
-	<link rel="stylesheet" href="master.css">
+	<link rel="stylesheet" href="/master.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="ip.js"></script>
+	<script src="/ip.js"></script>
 </head>
 
 <body>
-	<div class="ip_add">
+	<div class="col-4"><p></p></div>
+	<div class="col-4"><a href="./chess">chess</a></div>
+	<div class="col-4"><p></p></div>
+
+	<div class="col-12, ip_add">
 		<h2>IP Addres:</h2>
 		<h3 id="gfg"></h3>
 	</div>
-	<div class="code_block">
+	<div class="col-4"><p></p></div>
+	<div class="col-4, code_block">
 		<h2> Timing </h2>
 		<pre>
 		<code>
@@ -32,6 +37,7 @@ if (now - last_second > CLOCKS_PER_SEC) {
 		</code>
 		</pre>
 	</div>
+	<div class="col-4"><p></p></div>
 
 </body>
 </html>
