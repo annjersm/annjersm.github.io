@@ -41,6 +41,10 @@ a p {
         background-color: #111111;
         border-color: #111111;
 }
+.bMark svg {
+        margin-top: 40%;
+        margin-bottom: 20%;
+}
 
 /** CSS GRID **/
 .col-1 {width: 8.33%;}
